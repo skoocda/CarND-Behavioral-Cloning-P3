@@ -22,6 +22,5 @@ def main():
     clip = ImageSequenceClip(args.image_folder, fps=args.fps)
     clip.write_videofile(video_file)
 
-
 if __name__ == '__main__':
     main()
